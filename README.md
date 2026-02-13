@@ -1,4 +1,4 @@
-# ⚡ WordPress + React Project Cost Calculator
+# WordPress + React Project Cost Calculator
 
 A real-world example of integrating a **React TypeScript component** into a **WordPress website** using the WordPress REST API.
 
@@ -7,7 +7,7 @@ A real-world example of integrating a **React TypeScript component** into a **Wo
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
 
-## 🎯 What This Project Demonstrates
+## What This Project Demonstrates
 
 This project shows how to embed an interactive React component inside WordPress — a common real-world requirement for agencies that need dynamic functionality beyond what page builders offer.
 
@@ -17,7 +17,7 @@ This project shows how to embed an interactive React component inside WordPress 
 - Volume discount logic (10% off orders over CHF 5,000)
 - Submits quote to WordPress via custom REST API endpoint
 
-## 🏗️ WordPress Integration Architecture
+## WordPress Integration Architecture
 
 ```
 WordPress Site
@@ -32,7 +32,7 @@ WordPress Site
     └── Embedded via WordPress shortcode: [react_calculator]
 ```
 
-## 💡 How React Integrates With WordPress
+## How React Integrates With WordPress
 
 In a real WordPress installation, this React app is built and enqueued as a WordPress script:
 
@@ -95,7 +95,7 @@ function save_quote_submission(WP_REST_Request $request) {
 }
 ```
 
-## ✨ Features
+## Features
 
 - **5-step wizard** with progress indicator
 - **Real-time price calculation** using useMemo (updates instantly)
@@ -106,7 +106,7 @@ function save_quote_submission(WP_REST_Request $request) {
 - **Project tier detection** (Starter / Professional / Enterprise)
 - **WordPress API status indicator** in header
 
-## 🛠️ TypeScript Concepts Used
+## TypeScript Concepts Used
 
 | Concept | Where Used |
 |---------|-----------|
@@ -119,7 +119,7 @@ function save_quote_submission(WP_REST_Request $request) {
 | Custom Hook | `useCalculator` — all logic separated from UI |
 | `FormEvent<HTMLFormElement>` | Typed form submission |
 
-## 🚀 Run Locally
+## Run Locally
 
 ```bash
 git clone https://github.com/suryayousufzai/wp-react-calculator.git
@@ -130,7 +130,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 wp-react-calculator/
@@ -144,7 +144,7 @@ wp-react-calculator/
 │   └── page.tsx                # Full calculator UI
 ```
 
-## 👤 Author
+## Author
 
 **Surya Yousufzai** — WordPress & TypeScript Developer
 - GitHub: [@suryayousufzai](https://github.com/suryayousufzai)
